@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int a;
+    int n;
 
-    scanf("%d", &a);
-    printf("Your score is %d point.", a);
+    scanf("%d", &n);
+    printf("Your score is %d point.", n);
     return 0;
 }
