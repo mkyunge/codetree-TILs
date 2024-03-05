@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    double a = 9.2 * 30.48;
-    double b = 1.3 * 160934;
+    double a = 9.2;
+    double b = 1.3;
 
-    printf("9.2ft = %.1lfcm\n1.3mi = %.1lfcm", a, b);
+    printf("%.1lfft = %.1lfcm\n%.1lfmi = %.1lfcm", a, a * 30.48, b, b * 160934);
     return 0;
 }
