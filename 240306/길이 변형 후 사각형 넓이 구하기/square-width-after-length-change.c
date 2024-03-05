@@ -5,6 +5,10 @@ int main() {
     int b;
 
     scanf("%d %d", &a, &b);
-    printf("%d\n%d\n%d", a + 8, b * 3, (a + 8)*(b*3));
+
+    a += 8;
+    b *= 3;
+
+    printf("%d\n%d\n%d", a, b, a * b);
     return 0;
 }
