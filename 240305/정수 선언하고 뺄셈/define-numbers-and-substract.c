@@ -3,8 +3,7 @@
 int main() {
     int a = 97;
     int b = 13;
-    int c = a - b;
 
-    printf("97 - 13 = %d", c);
+    printf("%d - %d = %d", a, b, a - b);
     return 0;
 }
