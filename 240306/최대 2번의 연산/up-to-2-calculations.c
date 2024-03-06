@@ -7,11 +7,7 @@ int main() {
 
     if (a % 2 == 0)
     {
-        printf("%d", a / 2);
-        if (a % 2 == 1)
-        {
-            printf("%d", (a + 1) / 2);
-        }
+        a /= 2;
     }
     if (a % 2 == 1)
     {
