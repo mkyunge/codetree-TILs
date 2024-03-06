@@ -5,7 +5,7 @@ int main() {
 
     scanf("%d", &n);
 
-    if (n >= 1000)
+    if (n >= 1000 && n < 3000)
     {
         printf("mask");
     }
