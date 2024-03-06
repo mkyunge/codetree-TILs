@@ -9,7 +9,7 @@ int main() {
     {
         printf("mask");
     }
-    else if (n <= 3000 && n > 1000)
+    else if (n >= 3000)
     {
         printf("book");
     }
