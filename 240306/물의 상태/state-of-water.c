@@ -15,7 +15,7 @@ int main() {
     }
     else
     {
-        "water";
+        printf("water");
     }
     return 0;
 }
