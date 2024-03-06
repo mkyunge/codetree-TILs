@@ -5,11 +5,11 @@ int main() {
 
     scanf("%d", &n);
 
-    if (n <= 1000 && n > 0)
+    if (n >= 1000)
     {
         printf("mask");
     }
-    else if (n <= 3000 && n > 0)
+    else if (n <= 3000 && n > 1000)
     {
         printf("book");
     }
