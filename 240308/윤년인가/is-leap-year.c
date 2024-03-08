@@ -18,6 +18,10 @@ int main() {
                 printf("false");
             }
         }
+        else
+        {
+            printf("true");
+        }
     }
     else
     {
