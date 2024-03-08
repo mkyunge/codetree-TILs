@@ -12,7 +12,7 @@ int main() {
 
     if (a_c == 'Y' && a_t >= 37)
     {
-        if (b_c == 'Y' && b_c >= 37 || c_c == 'Y' && c_t >= 37)
+        if ((b_c == 'Y' && b_c >= 37) || (c_c == 'Y' && c_t >= 37))
         {
             printf("E");
         }
