@@ -22,7 +22,8 @@ int main() {
                 printf("31");
             }
         }
-        else
+    }
+    else
         {
             if (n % 2 == 0)
             {
@@ -33,6 +34,5 @@ int main() {
                 printf("30");
             }
         }
-    }
     return 0;
 }
