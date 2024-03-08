@@ -5,13 +5,16 @@ int main() {
 
     scanf("%d", &y);
 
-    if (y % 4 == 0)
+    if (y % 4 == 1)
     {
-        printf("true");
-    }
-    else if (y % 100 == 0 && y % 400 == 1)
-    {
-        printf("false");
+        if (y % 400 == 1 && y % 100 == 0)
+        {
+            printf("false");
+        }
+        else
+        {
+            printf("true");
+        }
     }
     else
     {
