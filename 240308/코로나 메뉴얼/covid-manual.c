@@ -12,7 +12,7 @@ int main() {
 
     if (a_c == 'Y' && a_t >= 37)
     {
-        if (b_c == 'Y' && b_t >= 37 || c_c == 'Y' && c_t >= 37)
+        if (b_c == 'Y' && b_c >= 37 || c_c == 'Y' && c_t >= 37)
         {
             printf("E");
         }
@@ -21,27 +21,13 @@ int main() {
             printf("N");
         }
     }
-    else if (b_c == 'Y' && b_t >= 37)
+    else if (b_c == 'Y' && b_t >= 37 && c_c == 'Y' && c_t >= 37)
     {
-        if (a_c == 'Y' && a_t >= 37 || c_c == 'Y' && c_t >= 37)
-        {
-            printf("E");
-        }
-        else
-        {
-            printf("N");
-        }
+        printf("E");
     }
-    else if (c_c == 'Y' && c_t >= 37)
+    else
     {
-        if (a_c == 'Y' && a_t >= 37 || b_c == 'Y' && b_t >= 37)
-        {
-            printf("E");
-        }
-        else
-        {
-            printf("N");
-        }
+        printf("N");
     }
     return 0;
 }
