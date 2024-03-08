@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int n;
     int i;
+    int n;
 
     scanf("%d", &n);
 
-    for (i = n; i <= (n * 5); i += n)
+    for (i = n; i <= n * 5; i += n)
     {
         printf("%d ", i);
     }
