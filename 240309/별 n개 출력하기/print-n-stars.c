@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int i = 1;
     int n;
+    int i = 1;
 
     scanf("%d", &n);
 
-    while (i <= 5)
+    while (i < n + 1)
     {
         printf("*\n", i);
         i++;
