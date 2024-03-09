@@ -4,11 +4,11 @@ int main() {
     char n;
     int i;
 
-    scanf("%c", n);
+    scanf("%c", &n);
 
     for (i = 1; i <= 8; i++)
     {
-        printf("G");
+        printf("%c", n);
     }
     return 0;
 }
