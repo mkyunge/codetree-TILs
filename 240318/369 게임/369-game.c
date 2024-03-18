@@ -9,7 +9,11 @@ int main() {
     {
         if (i == 3 || i == 6 || i == 9)
         {
-            printf("0");
+            printf("0 ");
+        }
+        else if (i % 3 == 0)
+        {
+            printf("0 ");
         }
         else
         {
