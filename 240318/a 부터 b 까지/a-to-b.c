@@ -13,12 +13,14 @@ int main() {
         if (i % 2 == 0)
         {
             i += 3;
+            printf("%d ", i);
         }
         else
         {
             i *= 2;
+            printf("%d ", i);
         }
-        printf("%d ", i);
+        
     }
     return 0;
 }
