@@ -6,21 +6,18 @@ int main() {
 
     scanf("%d %d", &a, &b);
 
-    printf("%d ", a);
-
-    for (int i = a; i < b; i)
+    for (int i = a; i <= b; i)
     {
-        if (i % 2 == 0)
+        if (i % 2 == 1)
         {
-            i += 3;
             printf("%d ", i);
+            i *= 2;
         }
         else
         {
-            i *= 2;
             printf("%d ", i);
+            i += 3;
         }
-        
     }
     return 0;
 }
