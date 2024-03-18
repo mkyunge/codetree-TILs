@@ -20,5 +20,9 @@ int main() {
             printf("%d ", i);
         }
     }
+    else
+    {
+        printf("%d ", a);
+    }
     return 0;
 }
