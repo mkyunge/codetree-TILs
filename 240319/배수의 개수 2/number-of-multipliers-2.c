@@ -6,8 +6,8 @@ int main() {
 
     for (int i = 1; i <= 10; i++)
     {
-        scanf("%d ", &a);
-        if (i % 2 == 1)
+        scanf("%d", &a);
+        if (a % 2 == 1)
         {
             cnt++;
         }
